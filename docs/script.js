@@ -1,10 +1,9 @@
-// console.log('salom miwqila')
-var age = prompt('Yoqtirgan avtomobilingiz')
+var name = prompt('Ismingizni kiriting ')
 
-if(age == 'volga' || age == 'Volga' || age == 'волга' || age == 'Волга')
+if(name == 'Bobur' || name == 'bobur')
 {
-    alert("Fkusga gap yo brat!")
+    alert("Hello BOSS!")
 }
 else {
-    alert("Fkusis yog'akanu brat")
+    alert("Hello guest")
 }
